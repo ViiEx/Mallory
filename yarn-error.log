@@ -1,0 +1,43 @@
+Arguments: 
+  /home/manos/.nvm/versions/node/v16.15.1/bin/node /home/manos/.node/corepack/yarn/1.22.19/bin/yarn.js add discord.jd
+
+PATH: 
+  /home/manos/.nvm/versions/node/v16.15.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.15.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/discord.jd: Not found
+      at Request.params.callback [as _callback] (/home/manos/.node/corepack/yarn/1.22.19/lib/cli.js:66145:18)
+      at Request.self.callback (/home/manos/.node/corepack/yarn/1.22.19/lib/cli.js:140890:22)
+      at Request.emit (node:events:527:28)
+      at Request.<anonymous> (/home/manos/.node/corepack/yarn/1.22.19/lib/cli.js:141862:10)
+      at Request.emit (node:events:527:28)
+      at IncomingMessage.<anonymous> (/home/manos/.node/corepack/yarn/1.22.19/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:641:28)
+      at IncomingMessage.emit (node:events:539:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "Mallory",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:ViiEx/Mallory.git",
+    "author": "manos <manos@divbyzero.gr>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
